@@ -1,0 +1,2638 @@
+{
+  "result": {
+    "type": "reducer",
+    "reducerResults": {
+      "collection_group_results": {
+        "type": "results",
+        "blockIds": [
+          "8b411a67-00c2-43b5-9c7e-e8c24297623f",
+          "fde8cbd3-da76-48eb-99ff-8f8c834ebf45",
+          "b7629bac-f674-4193-95bb-9a5006c7ab9b",
+          "741afcd8-f1e9-425d-aa31-abadabc69bdd",
+          "3909f9ff-64b7-440c-afab-318dc578adf6",
+          "9063e4ca-753b-44fa-a227-e97325646a5d",
+          "7dbd67a2-69f1-4f47-85d3-5ed378e897fe",
+          "99e4d63e-552a-497a-83ba-44289359401b",
+          "88bb67f4-d147-401f-8f57-d104691b9be8",
+          "76ef8746-5ec5-45e9-be9a-ce87335e458a",
+          "5335cfc4-e4ca-41ad-a336-13525732dac0",
+          "363c86de-0415-45ea-9c09-b00bcdaefc47",
+          "e9f7c455-242b-43de-83ec-986d02a0c892",
+          "4d92f658-c991-427f-a9c1-ac824f86c15d"
+        ],
+        "hasMore": false
+      }
+    },
+    "sizeHint": 14
+  },
+  "recordMap": {
+    "__version__": 3,
+    "collection": {
+      "dc53e15a-cab2-4a85-b26a-3194859b133c": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "version": 1,
+            "name": [
+              [
+                "W2 Q1 FY24 (1)"
+              ]
+            ],
+            "schema": {
+              "EPa~": {
+                "icon": "/icons/factory_gray.svg",
+                "name": "Sector",
+                "type": "text"
+              },
+              "OhNw": {
+                "icon": "/icons/cash_gray.svg",
+                "name": "Amount ($M)",
+                "type": "number",
+                "number_format": "dollar"
+              },
+              "XWHM": {
+                "icon": "/icons/map-pin_gray.svg",
+                "name": "HQ",
+                "type": "text"
+              },
+              "[OMh": {
+                "icon": "/icons/stairs_gray.svg",
+                "name": "Series",
+                "type": "text"
+              },
+              "hAIs": {
+                "name": "Source",
+                "type": "url"
+              },
+              "hkxK": {
+                "name": "Date",
+                "type": "date",
+                "date_format": "DD/MM/YYYY",
+                "time_format": "H:mm"
+              },
+              "title": {
+                "icon": "/icons/city_gray.svg",
+                "name": "Company",
+                "type": "title"
+              }
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "bff57f6d-7c99-4ff8-a341-b5e7f9ec9baf",
+                "table": "collection",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "parent_id": "c101f82d-a0c2-46ee-a993-2f3b044e630e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "bff57f6d-7c99-4ff8-a341-b5e7f9ec9baf",
+            "migrated": true,
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2"
+          },
+          "role": "reader"
+        }
+      }
+    },
+    "block": {
+      "8b411a67-00c2-43b5-9c7e-e8c24297623f": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "8b411a67-00c2-43b5-9c7e-e8c24297623f",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "E-Commerce - Grocery and Milk"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "20"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Gurugram"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Series E"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/country-delight-raises-20-mn-in-series-e-round/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/country-delight-raises-20-mn-in-series-e-round/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-05"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "Country Delight",
+                  [
+                    [
+                      "a",
+                      "https://countrydelight.in/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "dd27a4de-f564-4264-a2ad-0e5d0d54578b",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971810,
+            "last_edited_time": 1704934971810,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "dd27a4de-f564-4264-a2ad-0e5d0d54578b",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "aLhBDJkMwUSHkctQB9urUQ,\"start\",\"end\"",
+                "n": {
+                  "aLhBDJkMwUSHkctQB9urUQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "aLhBDJkMwUSHkctQB9urUQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "pVjGzqUP8u52",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 15,
+                          "c": "Country Delight",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "aLhBDJkMwUSHkctQB9urUQ",
+                              "l": "",
+                              "i": [
+                                "pVjGzqUP8u52",
+                                16
+                              ],
+                              "s": {
+                                "i": [
+                                  "pVjGzqUP8u52",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "pVjGzqUP8u52",
+                                  15
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://countrydelight.in/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "fde8cbd3-da76-48eb-99ff-8f8c834ebf45": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "fde8cbd3-da76-48eb-99ff-8f8c834ebf45",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "B2B E-Commerce - Seafood"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "13.25"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Bengaluru"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Series C"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/exclusive-captain-fresh-raises-over-13-mn-in-fresh-tranche/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/exclusive-captain-fresh-raises-over-13-mn-in-fresh-tranche/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-03"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "Captain Fresh",
+                  [
+                    [
+                      "a",
+                      "https://www.captainfresh.in/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "169387bb-6905-47a0-aee5-ef165165dea9",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971806,
+            "last_edited_time": 1704934971806,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "169387bb-6905-47a0-aee5-ef165165dea9",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "kOE48yg3DP41q4ojDqoTNg,\"start\",\"end\"",
+                "n": {
+                  "kOE48yg3DP41q4ojDqoTNg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "kOE48yg3DP41q4ojDqoTNg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "H-wBlERc5OzI",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 13,
+                          "c": "Captain Fresh",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "kOE48yg3DP41q4ojDqoTNg",
+                              "l": "",
+                              "i": [
+                                "H-wBlERc5OzI",
+                                14
+                              ],
+                              "s": {
+                                "i": [
+                                  "H-wBlERc5OzI",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "H-wBlERc5OzI",
+                                  13
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://www.captainfresh.in/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "b7629bac-f674-4193-95bb-9a5006c7ab9b": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "b7629bac-f674-4193-95bb-9a5006c7ab9b",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Logistics"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "11.24"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Chennai"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Series B"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/exclusive-tiger-global-backed-wiz-freight-kicks-off-series-b-round/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/exclusive-tiger-global-backed-wiz-freight-kicks-off-series-b-round/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-04"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "Wiz Freight",
+                  [
+                    [
+                      "a",
+                      "https://wizfreight.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "3cf7496a-3089-4843-8cf2-410edfc227e6",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971807,
+            "last_edited_time": 1704934971807,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "3cf7496a-3089-4843-8cf2-410edfc227e6",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "jcEjvNyw6wbOBSRnWefDuA,\"start\",\"end\"",
+                "n": {
+                  "jcEjvNyw6wbOBSRnWefDuA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "jcEjvNyw6wbOBSRnWefDuA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "GBd7acfM3bMf",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 11,
+                          "c": "Wiz Freight",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "jcEjvNyw6wbOBSRnWefDuA",
+                              "l": "",
+                              "i": [
+                                "GBd7acfM3bMf",
+                                12
+                              ],
+                              "s": {
+                                "i": [
+                                  "GBd7acfM3bMf",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "GBd7acfM3bMf",
+                                  11
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://wizfreight.com/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "741afcd8-f1e9-425d-aa31-abadabc69bdd": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "741afcd8-f1e9-425d-aa31-abadabc69bdd",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Hospitality - Food & Beverages"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "10"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Bengaluru"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Bridge Round - Series A"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/vro-hospitality-raises-10-mn-led-by-axis-bank-and-gruhas/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/vro-hospitality-raises-10-mn-led-by-axis-bank-and-gruhas/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-03"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "VRO Hospitality",
+                  [
+                    [
+                      "a",
+                      "https://vrohospitality.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "23bdb585-fc3c-4b5a-9f03-58e820f7d11e",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971806,
+            "last_edited_time": 1704934971806,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "23bdb585-fc3c-4b5a-9f03-58e820f7d11e",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "ZZF6Q5ztva1nqwcAFCbOOw,\"start\",\"end\"",
+                "n": {
+                  "ZZF6Q5ztva1nqwcAFCbOOw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "ZZF6Q5ztva1nqwcAFCbOOw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "BaFZyn23dFk4",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 15,
+                          "c": "VRO Hospitality",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "ZZF6Q5ztva1nqwcAFCbOOw",
+                              "l": "",
+                              "i": [
+                                "BaFZyn23dFk4",
+                                16
+                              ],
+                              "s": {
+                                "i": [
+                                  "BaFZyn23dFk4",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "BaFZyn23dFk4",
+                                  15
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://vrohospitality.com/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "3909f9ff-64b7-440c-afab-318dc578adf6": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "3909f9ff-64b7-440c-afab-318dc578adf6",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Healthtech"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "7.5"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Bhubaneshwar"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Series A"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/exclusive-curebay-raises-7-5-mn-from-elevar-equity/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/exclusive-curebay-raises-7-5-mn-from-elevar-equity/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-05"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "CureBay",
+                  [
+                    [
+                      "a",
+                      "https://curebay.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "de734365-837e-4170-b1ff-04169673a20f",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971810,
+            "last_edited_time": 1704934971810,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "de734365-837e-4170-b1ff-04169673a20f",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "HiskhBfzeuhnIEfjJQbhXQ,\"start\",\"end\"",
+                "n": {
+                  "HiskhBfzeuhnIEfjJQbhXQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "HiskhBfzeuhnIEfjJQbhXQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "toxLy3Ik2l14",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 7,
+                          "c": "CureBay",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "HiskhBfzeuhnIEfjJQbhXQ",
+                              "l": "",
+                              "i": [
+                                "toxLy3Ik2l14",
+                                8
+                              ],
+                              "s": {
+                                "i": [
+                                  "toxLy3Ik2l14",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "toxLy3Ik2l14",
+                                  7
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://curebay.com/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "9063e4ca-753b-44fa-a227-e97325646a5d": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "9063e4ca-753b-44fa-a227-e97325646a5d",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Fintech"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "5.2"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Gurugram"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Seed"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/exclusive-bnpl-startup-salaryse-raises-5-2-mn-from-surge-and-pravega/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/exclusive-bnpl-startup-salaryse-raises-5-2-mn-from-surge-and-pravega/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-02"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "SalarySe",
+                  [
+                    [
+                      "a",
+                      "https://www.salaryse.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "9527164b-64cc-42ce-9858-8bd4ec1843e2",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971809,
+            "last_edited_time": 1704934971809,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "9527164b-64cc-42ce-9858-8bd4ec1843e2",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "N_RU3y4SktTp9HfaOh88EA,\"start\",\"end\"",
+                "n": {
+                  "N_RU3y4SktTp9HfaOh88EA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "N_RU3y4SktTp9HfaOh88EA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "a7Kr4KWkG3c7",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 8,
+                          "c": "SalarySe",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "N_RU3y4SktTp9HfaOh88EA",
+                              "l": "",
+                              "i": [
+                                "a7Kr4KWkG3c7",
+                                9
+                              ],
+                              "s": {
+                                "i": [
+                                  "a7Kr4KWkG3c7",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "a7Kr4KWkG3c7",
+                                  8
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://www.salaryse.com/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "7dbd67a2-69f1-4f47-85d3-5ed378e897fe": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "7dbd67a2-69f1-4f47-85d3-5ed378e897fe",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Co-Living"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "1.2"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Bengaluru"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Pre-Series A"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/co-living-startup-settl-raises-rs-10-cr-in-pre-series-a-round/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/co-living-startup-settl-raises-rs-10-cr-in-pre-series-a-round/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-02"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "Settl",
+                  [
+                    [
+                      "a",
+                      "https://thesettl.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "7ef0503d-fc08-4320-9b6e-bdc0a4a5d44a",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971808,
+            "last_edited_time": 1704934971808,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "7ef0503d-fc08-4320-9b6e-bdc0a4a5d44a",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "HeP_cEhOhDtROS2V26T0Pw,\"start\",\"end\"",
+                "n": {
+                  "HeP_cEhOhDtROS2V26T0Pw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "HeP_cEhOhDtROS2V26T0Pw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "kCPUDPbIPt8l",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 5,
+                          "c": "Settl",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "HeP_cEhOhDtROS2V26T0Pw",
+                              "l": "",
+                              "i": [
+                                "kCPUDPbIPt8l",
+                                6
+                              ],
+                              "s": {
+                                "i": [
+                                  "kCPUDPbIPt8l",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "kCPUDPbIPt8l",
+                                  5
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://thesettl.com/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "99e4d63e-552a-497a-83ba-44289359401b": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "99e4d63e-552a-497a-83ba-44289359401b",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "E-Commerce - Health and Wellness"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "1"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Mumbai"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Seed"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/kl-rahul-backed-hyugalife-raises-1-mn/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/kl-rahul-backed-hyugalife-raises-1-mn/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-03"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "HyugaLife",
+                  [
+                    [
+                      "a",
+                      "https://hyugalife.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "deb8fda6-d783-445c-be05-38989421f9d1",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971811,
+            "last_edited_time": 1704934971811,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "deb8fda6-d783-445c-be05-38989421f9d1",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "nCtyCDdeWl-mxlv5bvye8Q,\"start\",\"end\"",
+                "n": {
+                  "nCtyCDdeWl-mxlv5bvye8Q,\"start\",\"end\"": {
+                    "s": {
+                      "x": "nCtyCDdeWl-mxlv5bvye8Q",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "lA6aKgvcm5zb",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 9,
+                          "c": "HyugaLife",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "nCtyCDdeWl-mxlv5bvye8Q",
+                              "l": "",
+                              "i": [
+                                "lA6aKgvcm5zb",
+                                10
+                              ],
+                              "s": {
+                                "i": [
+                                  "lA6aKgvcm5zb",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "lA6aKgvcm5zb",
+                                  9
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://hyugalife.com/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "88bb67f4-d147-401f-8f57-d104691b9be8": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "88bb67f4-d147-401f-8f57-d104691b9be8",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Devotional"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "0.72"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Noida"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Seed"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/devdham-raises-seed-round-from-titan-capital-and-others/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/devdham-raises-seed-round-from-titan-capital-and-others/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-03"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "DevDham",
+                  [
+                    [
+                      "a",
+                      "https://devdham.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "d79e0494-b973-4805-aac8-ece29f589c88",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971809,
+            "last_edited_time": 1704934971809,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "d79e0494-b973-4805-aac8-ece29f589c88",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "mqfNcWyrNq9IyE5F60OC7g,\"start\",\"end\"",
+                "n": {
+                  "mqfNcWyrNq9IyE5F60OC7g,\"start\",\"end\"": {
+                    "s": {
+                      "x": "mqfNcWyrNq9IyE5F60OC7g",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "upfSqoKW9h20",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 7,
+                          "c": "DevDham",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "mqfNcWyrNq9IyE5F60OC7g",
+                              "l": "",
+                              "i": [
+                                "upfSqoKW9h20",
+                                8
+                              ],
+                              "s": {
+                                "i": [
+                                  "upfSqoKW9h20",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "upfSqoKW9h20",
+                                  7
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://devdham.com/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "76ef8746-5ec5-45e9-be9a-ce87335e458a": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "76ef8746-5ec5-45e9-be9a-ce87335e458a",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Healthtech"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "0.5"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Gurugram"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Seed"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/larkai-healthcare-raises-500k-in-seed-round/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/larkai-healthcare-raises-500k-in-seed-round/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-03"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "Larkai Healthcare",
+                  [
+                    [
+                      "a",
+                      "https://larkai.in/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "78bc4655-fd2f-40b5-9b38-526eb441f264",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971808,
+            "last_edited_time": 1704934971808,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "78bc4655-fd2f-40b5-9b38-526eb441f264",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "H0ur1fcDjjFtc6e_Cbi4BQ,\"start\",\"end\"",
+                "n": {
+                  "H0ur1fcDjjFtc6e_Cbi4BQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "H0ur1fcDjjFtc6e_Cbi4BQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "C6BfWX6FRGue",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 17,
+                          "c": "Larkai Healthcare",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "H0ur1fcDjjFtc6e_Cbi4BQ",
+                              "l": "",
+                              "i": [
+                                "C6BfWX6FRGue",
+                                18
+                              ],
+                              "s": {
+                                "i": [
+                                  "C6BfWX6FRGue",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "C6BfWX6FRGue",
+                                  17
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://larkai.in/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "5335cfc4-e4ca-41ad-a336-13525732dac0": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "5335cfc4-e4ca-41ad-a336-13525732dac0",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Healthcare"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "0.24"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Hyderabad"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Seed"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://www.vccircle.com/totalemergency-network-maidaan-raise-early-stage-funding",
+                  [
+                    [
+                      "a",
+                      "https://www.vccircle.com/totalemergency-network-maidaan-raise-early-stage-funding"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-04"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "Total Emergency Network",
+                  [
+                    [
+                      "a",
+                      "https://tenmednetwork.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "671370ed-a01c-44be-a689-8e4e0b1e5581",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971807,
+            "last_edited_time": 1704934971807,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "671370ed-a01c-44be-a689-8e4e0b1e5581",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "pya6ormO8AheflnRlxb1Bw,\"start\",\"end\"",
+                "n": {
+                  "pya6ormO8AheflnRlxb1Bw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "pya6ormO8AheflnRlxb1Bw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "WREC0n7LomSK",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 23,
+                          "c": "Total Emergency Network",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "pya6ormO8AheflnRlxb1Bw",
+                              "l": "",
+                              "i": [
+                                "WREC0n7LomSK",
+                                24
+                              ],
+                              "s": {
+                                "i": [
+                                  "WREC0n7LomSK",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "WREC0n7LomSK",
+                                  23
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://tenmednetwork.com/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "363c86de-0415-45ea-9c09-b00bcdaefc47": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "363c86de-0415-45ea-9c09-b00bcdaefc47",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Fuel Aggregator"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "0.12"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Noida"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://inc42.com/buzz/gails-pankh-backs-fuel-aggregator-startup-nawgati/",
+                  [
+                    [
+                      "a",
+                      "https://inc42.com/buzz/gails-pankh-backs-fuel-aggregator-startup-nawgati/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-04"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "Nawgati",
+                  [
+                    [
+                      "a",
+                      "https://www.nawgati.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "df892534-4052-4444-a0d6-724ba1097b2b",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971811,
+            "last_edited_time": 1704934971811,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "df892534-4052-4444-a0d6-724ba1097b2b",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "TzhLgvPkkUALu6gPKJKwHA,\"start\",\"end\"",
+                "n": {
+                  "TzhLgvPkkUALu6gPKJKwHA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "TzhLgvPkkUALu6gPKJKwHA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "LxXFwj4m5cso",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 7,
+                          "c": "Nawgati",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "TzhLgvPkkUALu6gPKJKwHA",
+                              "l": "",
+                              "i": [
+                                "LxXFwj4m5cso",
+                                8
+                              ],
+                              "s": {
+                                "i": [
+                                  "LxXFwj4m5cso",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "LxXFwj4m5cso",
+                                  7
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://www.nawgati.com/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "e9f7c455-242b-43de-83ec-986d02a0c892": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "e9f7c455-242b-43de-83ec-986d02a0c892",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Edtech"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Bengaluru"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Pre-Seed"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://cionews.co.in/maidaan-raises-undisclosed-amount-in-pre-seed-round/",
+                  [
+                    [
+                      "a",
+                      "https://cionews.co.in/maidaan-raises-undisclosed-amount-in-pre-seed-round/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-04"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "Maidaan",
+                  [
+                    [
+                      "a",
+                      "https://maidaan.app/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "5a9d508f-602d-48af-a682-c2c6035de84c",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971807,
+            "last_edited_time": 1704934971807,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "5a9d508f-602d-48af-a682-c2c6035de84c",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "LyaqyOn7WTLXb9NR8mjFgA,\"start\",\"end\"",
+                "n": {
+                  "LyaqyOn7WTLXb9NR8mjFgA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "LyaqyOn7WTLXb9NR8mjFgA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "En7gl5AIbZF-",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 7,
+                          "c": "Maidaan",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "LyaqyOn7WTLXb9NR8mjFgA",
+                              "l": "",
+                              "i": [
+                                "En7gl5AIbZF-",
+                                8
+                              ],
+                              "s": {
+                                "i": [
+                                  "En7gl5AIbZF-",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "En7gl5AIbZF-",
+                                  7
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://maidaan.app/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "4d92f658-c991-427f-a9c1-ac824f86c15d": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "4d92f658-c991-427f-a9c1-ac824f86c15d",
+            "version": 2,
+            "type": "page",
+            "properties": {
+              "EPa~": [
+                [
+                  "Fintech - Credit Card/Lending"
+                ]
+              ],
+              "OhNw": [
+                [
+                  "11.44"
+                ]
+              ],
+              "XWHM": [
+                [
+                  "Pune"
+                ]
+              ],
+              "[OMh": [
+                [
+                  "Debt"
+                ]
+              ],
+              "hAIs": [
+                [
+                  "https://entrackr.com/2024/01/exclusive-onecard-raises-rs-95-cr-debt-from-alteria/",
+                  [
+                    [
+                      "a",
+                      "https://entrackr.com/2024/01/exclusive-onecard-raises-rs-95-cr-debt-from-alteria/"
+                    ]
+                  ]
+                ]
+              ],
+              "hkxK": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2024-01-04"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "OneCard",
+                  [
+                    [
+                      "a",
+                      "https://www.getonecard.app/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "8f7889f4-f97c-45d9-8c95-02b76c3c91cf",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971809,
+            "last_edited_time": 1704934971809,
+            "parent_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "8f7889f4-f97c-45d9-8c95-02b76c3c91cf",
+            "created_by_table": "notion_user",
+            "created_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "qL2SSdP_ZquLl-xWNVufvQ,\"start\",\"end\"",
+                "n": {
+                  "qL2SSdP_ZquLl-xWNVufvQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "qL2SSdP_ZquLl-xWNVufvQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "G8J2njjJ2BF2",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 7,
+                          "c": "OneCard",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "qL2SSdP_ZquLl-xWNVufvQ",
+                              "l": "",
+                              "i": [
+                                "G8J2njjJ2BF2",
+                                8
+                              ],
+                              "s": {
+                                "i": [
+                                  "G8J2njjJ2BF2",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "G8J2njjJ2BF2",
+                                  7
+                                ],
+                                "a": "a"
+                              },
+                              "a": [
+                                "a",
+                                "https://www.getonecard.app/"
+                              ]
+                            }
+                          ],
+                          "a": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "c101f82d-a0c2-46ee-a993-2f3b044e630e": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "c101f82d-a0c2-46ee-a993-2f3b044e630e",
+            "version": 2,
+            "type": "collection_view",
+            "view_ids": [
+              "998ee5be-7bc3-4df9-82e3-382264060f40"
+            ],
+            "collection_id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+            "format": {
+              "collection_pointer": {
+                "id": "dc53e15a-cab2-4a85-b26a-3194859b133c",
+                "table": "collection",
+                "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2"
+              },
+              "copied_from_pointer": {
+                "id": "970bfae9-bd11-43a6-98e1-58e3bd9fbd08",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              }
+            },
+            "created_time": 1704934971802,
+            "last_edited_time": 1704934971802,
+            "parent_id": "5bbe867b-d449-456a-aefc-c3e575f1a53a",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "970bfae9-bd11-43a6-98e1-58e3bd9fbd08",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "PhSKDZUGBswjDMjUt9TSyA,\"start\",\"end\"",
+                "n": {
+                  "PhSKDZUGBswjDMjUt9TSyA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "PhSKDZUGBswjDMjUt9TSyA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "5bbe867b-d449-456a-aefc-c3e575f1a53a": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "5bbe867b-d449-456a-aefc-c3e575f1a53a",
+            "version": 19,
+            "type": "page",
+            "properties": {
+              "J<?N": [
+                [
+                  "49.15"
+                ]
+              ],
+              "RrSV": [
+                [
+                  "\u2023",
+                  [
+                    [
+                      "d",
+                      {
+                        "type": "date",
+                        "start_date": "2023-09-04"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "title": [
+                [
+                  "W1 Q4 FY24"
+                ]
+              ]
+            },
+            "content": [
+              "c101f82d-a0c2-46ee-a993-2f3b044e630e",
+              "af36f629-4ce1-4751-8e2a-c8b83abfef1c",
+              "9ac11014-1385-47c2-b0c3-8a468ded9b69",
+              "97f67dda-bb4e-445e-8a02-f402431cdb01"
+            ],
+            "format": {
+              "copied_from_pointer": {
+                "id": "f15d0079-4520-4959-80f4-504c0c303892",
+                "table": "block",
+                "spaceId": "9e800eb5-baf1-4b2e-b081-8eadf0b05a60"
+              },
+              "page_cover_position": 0.5
+            },
+            "created_time": 1704934971811,
+            "last_edited_time": 1704934979944,
+            "parent_id": "56051167-de46-4258-a6c5-8c144f30fdac",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "f15d0079-4520-4959-80f4-504c0c303892",
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "PsvOtFriLrqppXboocy57Q,\"start\",\"end\"",
+                "n": {
+                  "PsvOtFriLrqppXboocy57Q,\"start\",\"end\"": {
+                    "s": {
+                      "x": "PsvOtFriLrqppXboocy57Q",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "MQ9Vq_MPUZ5O",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 10,
+                          "c": "W1 Q4 FY24"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "56051167-de46-4258-a6c5-8c144f30fdac": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "56051167-de46-4258-a6c5-8c144f30fdac",
+            "version": 337,
+            "type": "page",
+            "properties": {
+              "title": [
+                [
+                  "Weekly Funding Updates"
+                ]
+              ]
+            },
+            "content": [
+              "5bbe867b-d449-456a-aefc-c3e575f1a53a",
+              "2ef47abb-5b10-444f-92f7-f5e210178ae7",
+              "6b1b7a1f-7d8d-411f-a4fd-e36919c41698",
+              "21260099-a35c-4707-a318-c7632fca44cd",
+              "5f0aaed2-972f-403a-a712-df077594d594",
+              "5e50a8d1-41a8-4e5d-aee5-481fa0d1256e",
+              "4e715043-ba90-48d4-a9b7-1eedef0cf406",
+              "063397a7-8bdd-4dd5-8aa8-0090e7c2b6d7",
+              "d8152e36-a915-48ae-a9e6-59a7441e9003",
+              "aa77bc36-b52e-4fa8-95d6-7d08512b1974",
+              "6aa81194-80ad-4ce5-8af0-9d6aed9b6182",
+              "32a8d395-da9f-4508-bacc-43a29be5a156",
+              "59ab9401-5137-42cb-8886-278733ef0e76",
+              "b1c69121-28b8-4e24-b630-9c5422910913",
+              "983f3ca4-2e93-47df-8693-bfaa8df1f0b2",
+              "ed993346-50ec-4427-bc78-51f758f25438",
+              "0bc6d2e0-955c-4376-bad5-92d6f79b3b19",
+              "b1cefd08-bc46-4858-98aa-1b9581b7820c",
+              "3499ff80-4aab-4c37-a4af-aad951414e41",
+              "15e617fd-03dc-4d01-ba17-d9060847c361",
+              "d6d5699d-1a1d-4b1a-b611-af3401aa48f1",
+              "e7e12e19-afd1-442a-a20d-d2bd1c1a5914",
+              "3b0eb942-d0a6-46d4-9032-8fead08f6744",
+              "5cac50eb-d4c8-41c7-825f-3fc6a21b8487",
+              "a72e3712-6772-48e7-944c-d0df8dcca260",
+              "478b22a2-51cb-4d93-9fb8-ff743af42669",
+              "d293d61a-cae3-4bbd-b25d-811c428a7aa9",
+              "9527e62b-3d02-4db3-90a6-4dacc902a534",
+              "85ef7bce-cdb7-431e-b053-895151c100d5",
+              "61c11942-f69f-4a69-90ff-6f5e03dc6c28",
+              "6fcc5b2f-a7c4-4baa-9d06-40f349abf18a",
+              "2c01c8fa-a99d-407b-a93c-89f056bc8f03",
+              "2a12a01e-3394-4658-abf2-3dcf3d9305e5",
+              "5dbd9b99-2873-4f54-b9a1-42f527e222dd",
+              "87da8cc3-7560-4e21-99bb-fba15105780e",
+              "509c69ac-b763-4731-a4b8-8a5e48b31e87",
+              "8f7049c9-771a-495a-911f-3b08d89efa1f",
+              "10608566-a360-806b-a0dd-dae05c7903f4",
+              "10c08566-a360-8060-ae1b-fcfe59dd2c61",
+              "11308566-a360-802a-b972-ecc5b20719f0",
+              "11908566-a360-802f-9cc0-fb78a12ce481",
+              "12008566-a360-80fe-8ff6-f78f2eb09aed",
+              "12808566-a360-8000-bb6b-f9629c0158f3",
+              "12e08566-a360-80b5-8589-dfe01ae030d1",
+              "13608566-a360-80bd-9370-fd7cbc9b6c0f",
+              "13e08566-a360-80a4-ab88-fe5020203b4e",
+              "14508566-a360-802f-a0aa-e99eb578465f",
+              "14b08566-a360-804b-859b-fd5d8add9dcf",
+              "15208566-a360-80cb-a604-e80fea9449d5",
+              "15908566-a360-807b-8cfd-d0d5e7ce17b9",
+              "16008566-a360-809f-8ee8-d473504e5537",
+              "16808566-a360-80c9-983b-ecc53723291d",
+              "16f08566-a360-8012-b6d0-fc6f68045981",
+              "17608566-a360-8054-bab0-daa934a6ba28",
+              "17c08566-a360-80cc-91c0-e63ccf182ac2",
+              "18408566-a360-805d-b9d5-fec022a69b00",
+              "18a08566-a360-806f-9ee5-f3552f9d8ea3",
+              "19208566-a360-80a2-91c3-f49935457e1c",
+              "19808566-a360-8047-a2cc-c46e6564ec50",
+              "19f08566-a360-8086-9530-e062acd1014e",
+              "1a608566-a360-8079-974c-d4b09b2f95b1",
+              "1ad08566-a360-8002-ab8c-e5f189df81fb",
+              "1b408566-a360-808d-a669-c49a4de6b54f",
+              "1bc08566-a360-80f6-a2f4-d42cd7652220",
+              "1c308566-a360-80a2-9b35-c91f6331f5e0",
+              "1ca08566-a360-80de-acb2-c1aa3d766b81",
+              "1d008566-a360-80ec-8d2d-f039341e299a",
+              "1d808566-a360-80cf-8ca1-d6dcdbcfc9aa",
+              "1df08566-a360-80c6-ac53-e2ec9e75c926",
+              "1e608566-a360-80b5-83e9-d9a40e1982b2",
+              "1ed08566-a360-8004-b7ac-f2a1d00437ee",
+              "1f408566-a360-80d0-a8ba-d0fa4f25c6a8",
+              "1fb08566-a360-807e-be2e-e1b7bb4ee85c",
+              "20208566-a360-80dc-8545-fd27df2e54ae",
+              "20908566-a360-80e0-ad4a-fbb8c399a842",
+              "21008566-a360-8082-bf02-f54d2dfc9f19",
+              "21e08566-a360-8008-98bd-c4ba100062ff",
+              "22408566-a360-8095-b65b-ea8f910d14ca",
+              "22c08566-a360-80ee-9854-f5113064662c",
+              "23308566-a360-801d-b850-f5ec197bb5a4",
+              "23a08566-a360-8063-8a2b-eb72c1160f00",
+              "24108566-a360-8042-ba6c-ebea9a6820cc",
+              "24808566-a360-8066-b86e-c77a78965694",
+              "24e08566-a360-8005-8090-e773f84cb669",
+              "25608566-a360-80df-8bee-fd4ad96449b6",
+              "25d08566-a360-80ac-83d8-d96ca7f904e5",
+              "26408566-a360-80f9-8102-e6aa2f5a1e7f",
+              "26b08566-a360-80b6-bb1b-de82feb93844",
+              "27208566-a360-8098-bacb-f90c0cdca4a0",
+              "27908566-a360-8062-8103-f0af9d2d9453",
+              "27f08566-a360-8071-ae1d-ca330e4238e8",
+              "28608566-a360-8065-bcbf-e9989bf4beb7",
+              "28e08566-a360-80e7-b7e1-fd9a957327eb",
+              "29408566-a360-80ac-9875-c0e000c96ae7",
+              "29b08566-a360-8066-816f-e451bb16ad5f",
+              "2a308566-a360-805e-81ab-c8357ff3636b",
+              "2aa08566-a360-806d-a65b-ff31ac607882",
+              "2b108566-a360-80ba-a124-d92b651518f7",
+              "2b708566-a360-806f-b85c-df1b07eea469",
+              "2be08566-a360-8019-9d29-d292db20b812",
+              "2c608566-a360-8071-85f8-c921c268fdae",
+              "2cc08566-a360-8040-95cf-c0274a5b48f3",
+              "2d308566-a360-801b-9e70-d27fe80f206d",
+              "2e208566-a360-80ad-a337-dd478d44595c",
+              "2e908566-a360-8027-a252-c6a487e3ac3c",
+              "2f008566-a360-802a-9f11-c4f3d570d894",
+              "2f708566-a360-80e6-8eca-de2c8385ab33",
+              "2fe08566-a360-8047-b67b-ff73da3736c7",
+              "30508566-a360-8031-9590-cb1a9c6389e3",
+              "30c08566-a360-80e0-b5a7-d1da18c590c4",
+              "31308566-a360-8018-ae2a-e87da97bebf6",
+              "31a08566-a360-8051-ab3d-d05c5f8bc2f9",
+              "32108566-a360-80a9-a5ea-ee0b00d1598c",
+              "32808566-a360-8052-86ce-f0296f0bb21a",
+              "32f08566-a360-8045-b332-fe685c56a316",
+              "33508566-a360-8057-bb45-de4c9800ca75",
+              "33c08566-a360-802e-805c-f7e6f99cf84b",
+              "34308566-a360-80ee-95fa-f7d9ddf6cccf",
+              "34a08566-a360-8015-9fc8-f8c1990c84fd",
+              "35208566-a360-8047-8b85-ef4c5f962920",
+              "35708566-a360-8071-97c5-e6be3b887ace",
+              "36008566-a360-80ec-8404-d943e2baef6a",
+              "36708566-a360-804c-93d9-e73bd7fca1b7",
+              "36e08566-a360-8027-ac37-c519b0b4f10a",
+              "37408566-a360-8092-a81a-caae5a44b3e0",
+              "37c08566-a360-8088-b4d6-c4d0fb0ea0f4",
+              "38308566-a360-8020-bc44-de6bcce6f153",
+              "38908566-a360-80f4-8f1f-e3bc199cf618",
+              "39208566-a360-80ea-ab8c-fce7f3fe0476",
+              "39908566-a360-8064-ba2b-f7ca8b3675ea"
+            ],
+            "format": {
+              "page_icon": "\ud83d\udcb5"
+            },
+            "created_time": 1704934917310,
+            "last_edited_time": 1783692743049,
+            "parent_id": "303101b8-7482-4f4c-91fa-e9fc8ce6d450",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "dZ_zAKcrdb1GEvc-8j1Awg,\"start\",\"end\"",
+                "n": {
+                  "dZ_zAKcrdb1GEvc-8j1Awg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "dZ_zAKcrdb1GEvc-8j1Awg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "UGqOQj7vNrWN",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 22,
+                          "c": "Weekly Funding Updates"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "303101b8-7482-4f4c-91fa-e9fc8ce6d450": {
+        "spaceId": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+        "value": {
+          "value": {
+            "id": "303101b8-7482-4f4c-91fa-e9fc8ce6d450",
+            "version": 120,
+            "type": "page",
+            "properties": {
+              "title": [
+                [
+                  "BwM: Startup Funding Database"
+                ]
+              ]
+            },
+            "content": [
+              "56051167-de46-4258-a6c5-8c144f30fdac",
+              "56a319f7-d951-4107-9ac2-2741862c9a5b",
+              "8aed3c01-12bb-4f26-a3c7-4735d8332b9d"
+            ],
+            "format": {
+              "site_id": "1b5f402a-26d8-8134-a162-0079238ae154",
+              "page_icon": "\ud83d\udcb0"
+            },
+            "permissions": [
+              {
+                "role": "editor",
+                "type": "user_permission",
+                "user_id": "741cdb47-4e5c-47a9-ac6e-dbccf9639844"
+              },
+              {
+                "role": "reader",
+                "type": "public_permission",
+                "is_site": true,
+                "added_timestamp": 1704955000221
+              }
+            ],
+            "created_time": 1704934691589,
+            "last_edited_time": 1704961104135,
+            "parent_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "parent_table": "space",
+            "alive": true,
+            "space_id": "919f402a-26d8-4f3f-ba46-5ee4cf7c5eb2",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "OGxmRaQdsoyD59ZxbjW9sA,\"start\",\"end\"",
+                "n": {
+                  "OGxmRaQdsoyD59ZxbjW9sA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "OGxmRaQdsoyD59ZxbjW9sA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "4LPe942rLCrh",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 29,
+                          "c": "BwM: Startup Funding Database"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      }
+    }
+  },
+  "collectionIds": [
+    "dc53e15a-cab2-4a85-b26a-3194859b133c"
+  ],
+  "allBlockIds": [
+    "363c86de-0415-45ea-9c09-b00bcdaefc47",
+    "3909f9ff-64b7-440c-afab-318dc578adf6",
+    "4d92f658-c991-427f-a9c1-ac824f86c15d",
+    "5335cfc4-e4ca-41ad-a336-13525732dac0",
+    "741afcd8-f1e9-425d-aa31-abadabc69bdd",
+    "76ef8746-5ec5-45e9-be9a-ce87335e458a",
+    "7dbd67a2-69f1-4f47-85d3-5ed378e897fe",
+    "88bb67f4-d147-401f-8f57-d104691b9be8",
+    "8b411a67-00c2-43b5-9c7e-e8c24297623f",
+    "9063e4ca-753b-44fa-a227-e97325646a5d",
+    "99e4d63e-552a-497a-83ba-44289359401b",
+    "b7629bac-f674-4193-95bb-9a5006c7ab9b",
+    "e9f7c455-242b-43de-83ec-986d02a0c892",
+    "fde8cbd3-da76-48eb-99ff-8f8c834ebf45"
+  ],
+  "shouldUseClientMode": true,
+  "isViewSpecificClientMode": false,
+  "tags": {
+    "permissionMode": "all_rows_visible_by_default",
+    "backendUsed": [
+      "collectionRouter",
+      "collectionApi"
+    ]
+  }
+}

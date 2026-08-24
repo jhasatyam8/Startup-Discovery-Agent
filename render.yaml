@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: startup-discovery-agent
+    env: docker
+    plan: free
+    region: singapore # Choose closest region to India for lower search latencies
+    branch: main
+    numInstances: 1
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: HOST
+        value: 0.0.0.0
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: LEAD_FINDER_MODEL
+        value: gemini-2.5-flash-lite
+      - key: DATABASE_URL
+        sync: false # E.g., Supabase PostgreSQL URI (postgresql://...)
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_WEBHOOK_URL
+        sync: false # Optional, bot will use polling if empty
+      - key: GOOGLE_SHEETS_SPREADSHEET_ID
+        sync: false
+      - key: DAILY_RUN_TIME
+        value: "02:00"
+      - key: YOUTUBE_CHANNELS
+        value: "@BackstageWithMillionaires"
+      - key: SEARCH_LOOKBACK_HOURS
+        value: "24"
+      - key: ONLY_SCAN_CHANNELS
+        value: "true"
+      - key: MAX_VIDEOS_PER_RUN
+        value: "15"

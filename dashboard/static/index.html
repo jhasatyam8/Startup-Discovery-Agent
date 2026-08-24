@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartupRadar AI - Funding Discovery Agent</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <aside class="sidebar">
+        <div class="logo">
+            <div class="logo-icon">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                </svg>
+            </div>
+            <span class="logo-text">StartupRadar AI</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-item active">
+                    <a href="#" id="nav-dashboard">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/>
+                        </svg>
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#startups-section" id="nav-startups">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
+                        </svg>
+                        Discoveries
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sharktank-section" id="nav-sharktank">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 6h-2.18c.07-.44.18-.87.18-1.32C18 2.55 15.45 1 13 1c-1.35 0-2.6.5-3.54 1.32L8 3.67 6.54 2.32C5.6 1.5 4.35 1 3 1 .55 1-2 2.55-2 4.68c0 .45.11.88.18 1.32H-2C-3.1 6-4 6.9-4 8v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-9 10H9v-2h2v2zm0-4H9V8h2v4zm4 4h-2v-2h2v2zm0-4h-2V8h2v4z"/>
+                        </svg>
+                        Shark Tank India
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#rag-section" id="nav-rag">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 16h-2v-2h2v2zm1.07-7.75l-.9.92C12.45 11.9 12 12.5 12 14h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/>
+                        </svg>
+                        AI RAG Assistant
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-container">
+        <header>
+            <div class="header-title">
+                <h1 id="welcome-title">Startup Funding Discoveries</h1>
+                <p>Autonomous AI discovery agent crawling YouTube updates.</p>
+            </div>
+            <button id="run-pipeline-btn" class="action-btn">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm-6 8c0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3c-3.31 0-6-2.69-6-6z"/>
+                </svg>
+                <span id="btn-text">Run Discovery Now</span>
+            </button>
+        </header>
+
+        <section class="metrics-grid">
+            <div class="metric-card green">
+                <div class="metric-header">
+                    <span>New Today</span>
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="metric-value" id="metric-today">0</div>
+                <div class="metric-footer">Startups found in last 24h</div>
+            </div>
+
+            <div class="metric-card purple">
+                <div class="metric-header">
+                    <span>Total Discovered</span>
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="metric-value" id="metric-total">0</div>
+                <div class="metric-footer">Startups stored in database</div>
+            </div>
+
+            <div class="metric-card cyan">
+                <div class="metric-header">
+                    <span>Funding Tracked</span>
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="metric-value" id="metric-funding">$0M</div>
+                <div class="metric-footer">Aggregated funding USD</div>
+            </div>
+
+            <div class="metric-card purple">
+                <div class="metric-header">
+                    <span>Videos Crawled</span>
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M21 3H3c-1.11 0-2 .89-2 2v14c0 1.1.89 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.11-.9-2-2-2zm-9 12V9l6 3-6 3z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="metric-value" id="metric-videos">0</div>
+                <div class="metric-footer" id="metric-videos-detail">Processed / Ignored / Errors</div>
+            </div>
+        </section>
+
+        <section class="section-card pipeline-controls" style="margin-bottom: 2rem;">
+            <div class="chart-title" style="margin-bottom: 1rem;">Modular Pipeline Controls</div>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem; font-size: 0.9rem;">Run specific parts of the discovery pipeline on demand without running the full end-to-end workflow.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <button id="btn-run-leads" class="action-btn" style="background: var(--surface-light); color: var(--text-primary); border: 1px solid var(--border);">
+                    <span id="text-run-leads">👔 Find LinkedIn Leads</span>
+                </button>
+                <button id="btn-run-report" class="action-btn" style="background: var(--surface-light); color: var(--text-primary); border: 1px solid var(--border);">
+                    <span id="text-run-report">📊 Generate Daily Report</span>
+                </button>
+                <button id="btn-run-sheets" class="action-btn" style="background: var(--surface-light); color: var(--text-primary); border: 1px solid var(--border);">
+                    <span id="text-run-sheets">☁️ Sync to Google Sheets</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">Funding Rounds Distribution</div>
+                <div class="chart-wrapper">
+                    <canvas id="roundsChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Most Active Investors Discovered</div>
+                <div class="chart-wrapper">
+                    <canvas id="investorsChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="startups-section" class="section-card">
+            <div class="chart-title" style="margin-bottom: 1rem;">Discovered Startups Directory</div>
+            
+            <div class="filters-bar">
+                <div class="search-input-wrapper">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                    <input type="text" id="search-input" class="search-input" placeholder="Search startup name, industry, or details...">
+                </div>
+                
+                <select id="round-filter" class="filter-select">
+                    <option value="">All Rounds</option>
+                    <option value="Pre-Seed">Pre-Seed</option>
+                    <option value="Seed">Seed</option>
+                    <option value="Series A">Series A</option>
+                    <option value="Series B">Series B</option>
+                    <option value="Series C">Series C</option>
+                    <option value="Debt">Debt</option>
+                    <option value="Grant">Grant</option>
+                </select>
+
+                <select id="sort-select" class="filter-select">
+                    <option value="date">Sort by Upload Date</option>
+                    <option value="amount">Sort by Amount</option>
+                    <option value="confidence">Sort by Confidence</option>
+                </select>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Startup Name</th>
+                            <th>Round</th>
+                            <th>Amount</th>
+                            <th>Investors</th>
+                            <th>Industry</th>
+                            <th>HQ</th>
+                            <th>Confidence</th>
+                            <th>Verification</th>
+                            <th>Source</th>
+                        </tr>
+                    </thead>
+                    <tbody id="startups-table-body">
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="pagination-row">
+                <div class="pagination-info" id="pagination-info">Showing 0 to 0 of 0 entries</div>
+                <div class="pagination-btns">
+                    <button class="page-btn" id="prev-page-btn" disabled>Previous</button>
+                    <button class="page-btn" id="next-page-btn" disabled>Next</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SHARK TANK INDIA SECTION ========== -->
+        <section id="shark-tank-section" class="section-card" style="display:none;margin-top:2rem;">
+            <div class="chart-title" style="margin-bottom:1rem;">
+                🦈 Shark Tank India — All Seasons Database
+            </div>
+
+            <!-- Stats row -->
+            <div class="metrics-grid" id="st-stats-grid" style="margin-bottom:1.5rem;">
+                <div class="metric-card green">
+                    <div class="metric-header"><span>Total Startups</span></div>
+                    <div class="metric-value" id="st-total">—</div>
+                    <div class="metric-footer">Across all seasons</div>
+                </div>
+                <div class="metric-card cyan">
+                    <div class="metric-header"><span>Deals Made</span></div>
+                    <div class="metric-value" id="st-deals">—</div>
+                    <div class="metric-footer" id="st-deal-rate">Deal success rate</div>
+                </div>
+                <div class="metric-card purple">
+                    <div class="metric-header"><span>No Deal</span></div>
+                    <div class="metric-value" id="st-nodeal">—</div>
+                    <div class="metric-footer">Startups who walked away</div>
+                </div>
+                <div class="metric-card purple">
+                    <div class="metric-header"><span>Top Shark</span></div>
+                    <div class="metric-value" id="st-top-shark" style="font-size:1rem;">—</div>
+                    <div class="metric-footer">Most deals closed</div>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="filters-bar" style="margin-bottom:1rem;">
+                <select id="st-season-filter" class="filter-select">
+                    <option value="">All Seasons</option>
+                    <option value="1">Season 1</option>
+                    <option value="2">Season 2</option>
+                    <option value="3">Season 3</option>
+                    <option value="4">Season 4</option>
+                    <option value="5">Season 5</option>
+                </select>
+                <select id="st-shark-filter" class="filter-select">
+                    <option value="">All Sharks</option>
+                    <option value="Aman Gupta">Aman Gupta</option>
+                    <option value="Namita Thapar">Namita Thapar</option>
+                    <option value="Peyush Bansal">Peyush Bansal</option>
+                    <option value="Anupam Mittal">Anupam Mittal</option>
+                    <option value="Vineeta Singh">Vineeta Singh</option>
+                    <option value="Ashneer Grover">Ashneer Grover</option>
+                    <option value="Ghazal Alagh">Ghazal Alagh</option>
+                    <option value="Amit Jain">Amit Jain</option>
+                    <option value="Radhika Gupta">Radhika Gupta</option>
+                    <option value="Kunal Bahl">Kunal Bahl</option>
+                    <option value="Ritesh Agarwal">Ritesh Agarwal</option>
+                    <option value="Mohit Yadav">Mohit Yadav</option>
+                    <option value="Varun Alagh">Varun Alagh</option>
+                    <option value="Viraj Bahl">Viraj Bahl</option>
+                    <option value="Kanika Tekriwal">Kanika Tekriwal</option>
+                    <option value="Shaily Mehrotra">Shaily Mehrotra</option>
+                    <option value="Hardik Kothiya">Hardik Kothiya</option>
+                    <option value="Pratham Mittal">Pratham Mittal</option>
+                </select>
+                <select id="st-deal-filter" class="filter-select">
+                    <option value="">All Outcomes</option>
+                    <option value="true">Deal Made ✅</option>
+                    <option value="false">No Deal ❌</option>
+                </select>
+            </div>
+
+            <!-- Table -->
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Startup</th>
+                            <th>Season</th>
+                            <th>Sector</th>
+                            <th>Ask</th>
+                            <th>Deal</th>
+                            <th>Equity %</th>
+                            <th>Sharks</th>
+                            <th>Outcome</th>
+                        </tr>
+                    </thead>
+                    <tbody id="st-table-body"></tbody>
+                </table>
+            </div>
+
+            <div class="pagination-row">
+                <div class="pagination-info" id="st-pagination-info">Showing 0 entries</div>
+                <div class="pagination-btns">
+                    <button class="page-btn" id="st-prev-btn" disabled>Previous</button>
+                    <button class="page-btn" id="st-next-btn" disabled>Next</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- RAG AI Q&A Section -->
+        <section id="rag-section" class="table-section hidden">
+            <div class="table-header">
+                <h2>🤖 AI Semantic Research Assistant (RAG)</h2>
+                <span class="subtitle">Ask any question to search database records using vector embeddings & Gemini.</span>
+            </div>
+
+            <div class="rag-box" style="margin: 20px 0; background: #1e293b; padding: 20px; border-radius: 12px; border: 1px solid #334155;">
+                <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                    <input type="text" id="rag-input" placeholder="e.g. Which AI startups in Bangalore raised seed funding?" style="flex: 1; padding: 12px 16px; border-radius: 8px; border: 1px solid #475569; background: #0f172a; color: white; font-size: 15px;" />
+                    <button id="rag-ask-btn" class="action-btn" style="padding: 12px 24px;">Ask AI</button>
+                </div>
+
+                <div id="rag-output-box" style="display: none; background: #0f172a; padding: 20px; border-radius: 8px; border: 1px solid #334155; line-height: 1.6; font-size: 15px;">
+                    <div id="rag-output-content"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

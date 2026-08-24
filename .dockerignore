@@ -1,0 +1,9 @@
+.venv/
+.git/
+__pycache__/
+node_modules/
+ffmpeg/
+key.pem
+archive.zip
+*.db
+reports/

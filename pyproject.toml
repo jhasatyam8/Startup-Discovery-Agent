@@ -1,0 +1,34 @@
+[project]
+name = "startup-discovery-agent"
+version = "0.1.0"
+description = "An autonomous AI agent to discover recently funded startups from YouTube videos."
+authors = [{ name = "Antigravity Team" }]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "sqlalchemy>=2.0.0",
+    "psycopg2-binary>=2.9.0",
+    "google-genai>=0.1.0",
+    "openai>=1.12.0",
+    "pydantic>=2.6.0",
+    "python-dotenv>=1.0.0",
+    "apscheduler>=3.10.0",
+    "yt-dlp>=2024.3.10",
+    "youtube-transcript-api>=0.6.2",
+    "duckduckgo-search>=5.0.0",
+    "gspread>=6.0.0",
+    "google-auth>=2.27.0",
+    "requests>=2.31.0",
+    "pydub>=0.25.1",
+    "jinja2>=3.1.0",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=5.0.0",
+    "feedparser>=6.0.0",
+    "primp>=1.1.0",
+    "chromadb>=0.4.24"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
